@@ -39,7 +39,6 @@ body {
     align-items: center;
     margin-top: 10px;
     width: 100%;
-    padding-left:10px;
 }
 
 .header a {
@@ -106,8 +105,9 @@ body {
         justify-content: center;
         flex-direction: row;
     }
-
-
+.header{
+        padding-left: 10px;
+    }
 
     .navbar ul {
         list-style: none;
@@ -926,6 +926,7 @@ h5 {
 }
 
 /*end footer*/
+
 
 
 
