@@ -98,6 +98,15 @@ body {
 
 /* navbar media Q */
 @media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    
+
     .navbar ul {
         list-style: none;
         position: absolute;
@@ -106,19 +115,24 @@ body {
         transform: translate(-50%, -120%);
         padding: 0px 0px 5px 0px;
         background-color: rgba(252, 252, 252, 0.802);
-        width: 90%;
         top: 100%;
         z-index: 1;
         border-radius: 30px;
         transition: transform 0.7s ease-in-out;
         opacity: 0;
         pointer-events: none;
+        width: 95%;
+    }
+
+    .header h1 {
+        font-size: 30px;
     }
 
     .navbar ul li a {
-        font-size: 17px;
+        font-size: 13px;
+        font-weight: 900;
         color: rgb(8, 8, 67);
-        padding: 5px;
+        padding: 0px;
         margin: 0;
         transition: 0.3s;
     }
@@ -128,30 +142,36 @@ body {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        
         transform: translate(-50%, 0);
         opacity: 1;
         pointer-events: auto;
     }
 
+    .header h1 {
+        left: -5px;
+    }
+
     .menu {
         display: block;
-        font-size: 35px;
+        font-size: 25px;
         background: none;
         border: none;
         color: white;
         cursor: pointer;
-        position: absolute;
-        right: 100px;
+        left: 10px;
+
     }
 
     .header img {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
+        left: 0;
+        padding: 0;
+        margin: 0;
     }
 
-    .header h1 {
-        left: -5%;
-    }
+
 
     .header ul::before {
         content: " ";
@@ -159,7 +179,7 @@ body {
         border-style: solid;
         position: absolute;
         border-color: transparent transparent rgba(252, 252, 252, 0.802)transparent;
-        right: 70px;
+        right: 27px;
         top: -20px;
     }
 
@@ -171,10 +191,10 @@ body {
     }
 
     .header ul li a:hover {
-        font-size: 15px;
+        font-size: 11px;
     }
-}
 
+}
 @media (min-width: 769px) and (max-width: 1024px) {
     .header img {
         width: 50px;
@@ -896,6 +916,7 @@ h5 {
 
 
 /*end footer*/
+
 
 
 
