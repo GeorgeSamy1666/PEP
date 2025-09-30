@@ -106,10 +106,9 @@ body {
         flex-direction: row;
     }
     .header{
+        margin-left: 15px;
         position: relative;
-        padding-left: 20px;
     }
-
 
     .navbar ul {
         list-style: none;
@@ -930,6 +929,7 @@ h5 {
 }
 
 /*end footer*/
+
 
 
 
