@@ -278,7 +278,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(/material/g2.png);
+    background-image: url(material/g2.png);
     background-size: 90vw 90vh;
     background-repeat: no-repeat;
     box-shadow: 0px 0px 20px rgb(255, 255, 255);
@@ -301,7 +301,7 @@ canvas {
     .parent1 {
         margin-top: 50px;
         margin-bottom: 0;
-        background-image: url(/material/g2.png);
+        background-image: url(material/g2.png);
         background-size: 90vw 80vh;
     }
 
@@ -919,3 +919,4 @@ h5 {
 }
 
 /*end footer*/
+
