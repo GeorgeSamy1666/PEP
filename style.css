@@ -105,8 +105,8 @@ body {
         justify-content: center;
         flex-direction: row;
     }
-.header{
-        padding-left: 10px;
+    .header{
+        padding-left: 20px;
     }
 
     .navbar ul {
@@ -926,6 +926,7 @@ h5 {
 }
 
 /*end footer*/
+
 
 
 
