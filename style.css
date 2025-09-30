@@ -171,18 +171,6 @@ body {
         margin: 0;
     }
 
-
-
-    .header ul::before {
-        content: " ";
-        border-width: 10px;
-        border-style: solid;
-        position: absolute;
-        border-color: transparent transparent rgba(252, 252, 252, 0.802)transparent;
-        right: 27px;
-        top: -20px;
-    }
-
     .header ul li a:hover {
         background: rgba(255, 255, 255, 0);
         box-shadow: 0px 0px 20px #ffffff00;
@@ -916,6 +904,7 @@ h5 {
 
 
 /*end footer*/
+
 
 
 
