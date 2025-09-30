@@ -128,6 +128,7 @@ body {
 
     .header h1 {
         font-size: 30px;
+        
     }
 
     .navbar ul li a {
@@ -151,7 +152,7 @@ body {
     }
 
     .header h1 {
-        left: -15px;
+        left: -20px;
     }
 
     .menu {
@@ -161,7 +162,7 @@ body {
         border: none;
         color: white;
         cursor: pointer;
-        left: 25px;
+        left: 30px;
 
     }
 
@@ -927,6 +928,7 @@ h5 {
 }
 
 /*end footer*/
+
 
 
 
