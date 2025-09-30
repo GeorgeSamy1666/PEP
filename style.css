@@ -407,7 +407,7 @@ canvas {
 }
 
 .content .card {
-    background: rgba(6, 2, 47,0.8);
+    background: rgba(6, 2, 47,0.67);
     box-shadow: 0 0 12px 5px #ffffff;
     border-radius: 25px;
     padding: 23px;
@@ -928,6 +928,7 @@ h5 {
 }
 
 /*end footer*/
+
 
 
 
